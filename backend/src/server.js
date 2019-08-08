@@ -8,7 +8,7 @@ mongoose.connect(
   "mongodb+srv://omnistack:denilson7@cluster0-4owi2.mongodb.net/omnistack8?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 );
-serve.use(cors());
+server.use(cors());
 server.use(express.json());
 server.use(routes);
 
